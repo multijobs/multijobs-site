@@ -1,10 +1,14 @@
 {
-  "name": "Receitas da Casa",
-  "short_name": "Receitas",
-  "start_url": "./",
+  "name": "Multijobs",
+  "short_name": "Multijobs",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#f7f5ef",
-  "theme_color": "#6f8f72",
-  "description": "Pesquisa, guarda e organiza receitas da casa.",
-  "icons": [{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "description": "Multijobs — électricité, éclairage LED, rénovation, installations techniques et entretien.",
+  "icons": [
+    {"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"},
+    {"src":"assets/app-icon.png","sizes":"64x64","type":"image/png","purpose":"any"}
+  ]
 }
