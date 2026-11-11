@@ -13,7 +13,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/icon.svg?v=20261012">
   <link rel="alternate icon" type="image/png" href="assets/favicon.png?v=20261012">
   <link rel="apple-touch-icon" href="assets/app-icon.png?v=20261012">
-  <link rel="stylesheet" href="style-mobile-v2.css?v=20261008-2">
+  <link rel="stylesheet" href="style-mobile-v2.css?v=20261111-galerie">
 </head>
 <body>
 
@@ -93,23 +93,27 @@
         <h2>Quelques-unes de nos réalisations</h2>
       </div>
       <div class="filters" aria-label="Filtres de projets">
-        <button class="filter active" data-filter="all">Tous</button>
-        <button class="filter" data-filter="interior">Intérieur</button>
-        <button class="filter" data-filter="stairs">Escaliers</button>
-        <button class="filter" data-filter="exterior">Extérieur</button>
+        <button class="filter active" data-filter="all" aria-pressed="true">Tous</button>
+        <button class="filter" aria-pressed="false" data-filter="portails">Motorisation de portails</button>
+        <button class="filter" aria-pressed="false" data-filter="combles">Isolation et aménagement des combles</button>
+        <button class="filter" aria-pressed="false" data-filter="papier">Papier peint à motifs végétaux</button>
+        <button class="filter" aria-pressed="false" data-filter="interior">Intérieur</button>
+        <button class="filter" aria-pressed="false" data-filter="stairs">Escaliers</button>
+        <button class="filter" aria-pressed="false" data-filter="exterior">Extérieur</button>
       </div>
     </div>
 
     <div class="gallery">
-      <figure data-cat="exterior"><img loading="lazy" src="portail.webp" alt="Portail gris à lames horizontales sur son rail"><figcaption>Portail coulissant anthracite</figcaption></figure>
-      <figure data-cat="interior"><img loading="lazy" src="papier-peint.webp" alt="Motif floral et oiseaux autour de la porte d’entrée"><figcaption>Pose de papier peint</figcaption></figure>
+      <figure data-cat="exterior portails"><img loading="lazy" src="motorisation-portail.webp" alt="Deux vérins fixés aux battants du portail"><figcaption>Motorisation d’un portail à deux battants</figcaption></figure>
+      <figure data-cat="exterior portails"><img loading="lazy" src="portail.webp" alt="Portail gris à lames horizontales sur son rail"><figcaption>Portail coulissant anthracite</figcaption></figure>
+      <figure data-cat="interior papier"><img loading="lazy" src="papier-peint.webp" alt="Motif floral et oiseaux autour de la porte d’entrée"><figcaption>Pose d’un papier peint à feuillage et oiseaux</figcaption></figure>
       <figure data-cat="interior"><img loading="lazy" src="douche.webp" alt="Receveur blanc, paroi vitrée et colonne de douche"><figcaption>Douche avec paroi en verre</figcaption></figure>
       <figure data-cat="exterior"><img loading="lazy" src="spots.webp" alt="Deux rangées de spots éclairent les murets du jardin"><figcaption>Éclairage des murets</figcaption></figure>
       <figure data-cat="interior"><img loading="lazy" src="sol.webp" alt="Découpe d’une lame de revêtement de sol pendant la pose"><figcaption>Pose d’un sol imitation bois</figcaption></figure>
       <figure data-cat="exterior"><img loading="lazy" src="allee.webp" alt="Bornes lumineuses le long d’une allée pavée"><figcaption>Balisage d’une allée</figcaption></figure>
       <figure data-cat="interior"><img loading="lazy" src="wc.webp" alt="WC suspendu avec habillage bois et lave-mains"><figcaption>Aménagement de WC</figcaption></figure>
-      <figure data-cat="interior"><img loading="lazy" src="plancher-combles.webp" alt="Vue du plancher en panneaux de bois avant la pose du revêtement"><figcaption>Préparation du plancher des combles</figcaption></figure>
-      <figure data-cat="interior"><img loading="lazy" src="combles.webp" alt="Lames claires posées autour des poteaux de charpente"><figcaption>Revêtement de sol sous les combles</figcaption></figure>
+      <figure data-cat="interior combles"><img loading="lazy" src="plancher-combles.webp" alt="Vue du plancher en panneaux de bois avant la pose du revêtement"><figcaption>Préparation du plancher des combles</figcaption></figure>
+      <figure data-cat="interior combles"><img loading="lazy" src="combles.webp" alt="Membrane sous les rampants et pose du sol autour des poteaux"><figcaption>Membrane sous toiture et pose du sol</figcaption></figure>
       <figure data-cat="interior"><img loading="lazy" src="suspensions.webp" alt="Deux suspensions ajourées projettent leurs motifs autour de la tête de lit"><figcaption>Suspensions de chevet</figcaption></figure>
       <figure data-cat="interior"><img loading="lazy" src="encadrement-led.webp" alt="Un ruban lumineux dessine le contour de la porte vitrée"><figcaption>Encadrement lumineux d’une porte</figcaption></figure>
       <figure data-cat="interior"><img loading="lazy" src="etagere-lumineuse.webp" alt="Niches géométriques en bois avec éclairage intégré"><figcaption>Mur décoratif rétroéclairé</figcaption></figure>
@@ -197,6 +201,6 @@
   <span class="copyright">© 2026 Multijobs</span>
 </footer>
 
-<script src="script-mobile-v2.js?v=20261008-2"></script>
+<script src="script-mobile-v2.js?v=20261111-galerie"></script>
 </body>
 </html>

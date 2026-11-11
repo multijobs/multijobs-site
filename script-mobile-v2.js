@@ -13,11 +13,13 @@ nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
 
 document.querySelectorAll('.filter').forEach(btn=>{
   btn.addEventListener('click',()=>{
-    document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
+    document.querySelectorAll('.filter').forEach(b=>{
+      b.classList.toggle('active', b === btn);
+      b.setAttribute('aria-pressed', String(b === btn));
+    });
     const filter=btn.dataset.filter;
     document.querySelectorAll('.gallery figure').forEach(fig=>{
-      fig.classList.toggle('hidden',!(filter==='all'||fig.dataset.cat===filter));
+      fig.classList.toggle('hidden',!(filter==='all'||fig.dataset.cat.split(' ').includes(filter)));
     });
   });
 });

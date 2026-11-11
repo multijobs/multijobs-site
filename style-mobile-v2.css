@@ -111,7 +111,7 @@ footer{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:24px;align
   .section,.contact{padding:62px 18px}
   .services-grid,.why-grid,.gallery,.contact-grid{grid-template-columns:1fr}
   .gallery figure{height:300px;width:100%}
-  .filters{width:100%;overflow-x:auto;padding-bottom:4px;flex-wrap:nowrap}
+  .filters{width:100%;padding-bottom:4px;flex-wrap:wrap}
   .filter{flex:0 0 auto}
   .contact-grid a{width:100%;padding:20px}
   .contact-actions{display:grid;grid-template-columns:1fr;gap:10px}
